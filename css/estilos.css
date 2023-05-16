@@ -1,4 +1,4 @@
-body { background-color: #DBBAFA}
+body { background-color: #f6f1de}
 h1 {color: #DA0EFF; text-decoration: underline; text-align: center; font-size: 250%}
 .subtitulo { color: #FF4DF9}
 .ingredientes { background-color: #CE93D8}
@@ -6,3 +6,18 @@ h1 {color: #DA0EFF; text-decoration: underline; text-align: center; font-size: 2
 .listaingred { font-size:120%}
 .video { color: #ce7095}
 .pancakes {height:350px; width:350px;}
+
+header { background-color: #e4d6f8; margin: 50px; padding: 5px;}
+section { background-color: #ddd6cc;}
+aside { background-color: #d294ff; margin-top: 35px; margin-bottom: 35px;}
+footer { background-color: #e4c7dd; margin-top: 35px; margin-bottom: 35px;}
+nav {background-color: #f4c4e9; margin: 20px}
+.iconos {color: #0000}
+
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 30px
+  }
