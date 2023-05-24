@@ -5,12 +5,20 @@ h1 {color: #DA0EFF; text-decoration: underline; text-align: center; font-size: 2
 .informacion { font-family:Courier}
 .listaingred { font-size:120%}
 .video { color: #ce7095}
-.pancakes {height:350px; width:350px;}
-
+.pancakes {height:350px;
+           width:350px;
+         }
+.pancakesintro { display: flex;
+               justify-content: center;
+                align-items: center;
+                flex-direction: column;
+}
 .preparacion {
    display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction:column;
+
 }
 header { background-color: #e4d6f8;
   margin: 4px;
@@ -30,6 +38,8 @@ justify-content: space-around;
   padding: 5px;
   display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .bandera {
@@ -39,10 +49,14 @@ flex-direction: column;
 section { background-color: #ddd6cc;
 
 }
-aside { background-color: #d294ff; margin-top: 35px; margin-bottom: 35px;}
+aside { background-color: #d294ff;
+  margin-top: 35px;
+  margin-bottom: 35px;
+display: flex;
+}
 footer { background-color: #e4c7dd;
-          margin-top: 35px;
-          margin-bottom: 35px;
+      margin-top: 35px;
+        margin-bottom: 35px;
           display: flex;
           justify-content: center;
           justify-content: space-around;
@@ -54,7 +68,8 @@ display: flex;
 }
 .iconos {color: #0000;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
 }
 
   .whatsapp {
