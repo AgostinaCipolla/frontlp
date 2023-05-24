@@ -1,18 +1,60 @@
 body { background-color: #f6f1de}
 h1 {color: #DA0EFF; text-decoration: underline; text-align: center; font-size: 250%}
-.subtitulo { color: #FF4DF9}
+.subtitulo { color: #FF4DF9; }
 .ingredientes { background-color: #CE93D8}
 .informacion { font-family:Courier}
 .listaingred { font-size:120%}
 .video { color: #ce7095}
 .pancakes {height:350px; width:350px;}
 
-header { background-color: #e4d6f8; margin: 50px; padding: 5px;}
-section { background-color: #ddd6cc;}
+.preparacion {
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header { background-color: #e4d6f8;
+  margin: 4px;
+  padding: 5px;
+  display: flex;
+justify-content: space-around;
+  }
+.footer {
+  margin: 4px;
+  padding: 5px;
+
+justify-content: space-around;
+}
+.info {
+  margin: 4px;
+  padding: 5px;
+  display: flex;
+flex-direction: column;
+}
+
+.bandera {
+  width: 150px;
+  height: auto
+}
+section { background-color: #ddd6cc;
+
+}
 aside { background-color: #d294ff; margin-top: 35px; margin-bottom: 35px;}
-footer { background-color: #e4c7dd; margin-top: 35px; margin-bottom: 35px;}
-nav {background-color: #f4c4e9; margin: 20px}
-.iconos {color: #0000}
+footer { background-color: #e4c7dd;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          display: flex;
+          justify-content: center;
+          justify-content: space-around;
+          flex-wrap: wrap;
+        }
+nav {background-color: #f4c4e9;
+  margin: 20px;
+display: flex;
+}
+.iconos {color: #0000;
+        display: flex;
+        justify-content: space-around;
+}
 
   .whatsapp {
     position: fixed;
@@ -21,3 +63,36 @@ nav {background-color: #f4c4e9; margin: 20px}
     z-index: 9999;
     font-size: 30px
   }
+
+
+.logo{
+  width: 30px;
+  height: auto;
+  margin: 10px;
+}
+
+.enlaces {
+  display: flex;
+justify-content: space-around;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+ align-content: center;
+
+}
+
+.recetasppl {
+  align-self: flex-end;
+
+  justify-content: center;
+  order: -9;
+}
+
+.mapa {
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}

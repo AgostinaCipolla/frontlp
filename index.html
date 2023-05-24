@@ -2,20 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pancakes</title>
     <!-- aca enlazo el css con html-->
     <link rel="stylesheet" href="./css/estilos.css">
     <script src="https://kit.fontawesome.com/3a45929fc7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
+    <header class="header">
+    <img class="bandera" src="./imagenes/bandera.png" alt="bandera">
     <h1>Pancakes , ¿los panqueques norteamericanos?</h1>
+    <div class="iconos">
+      <ul class="iconos">
+        <li><a class="facebook" href="https://www.facebook.com/" target="_blank">
+          <img class="logo" src="./imagenes/facebook.png" alt="facebook">
+          </a></li>
+          <li><a class="facebook" href="https://www.youtube.com/" target="_blank">
+            <img class="logo" src="./imagenes/youtube.png" alt="youtube">
+            </a></li>
+            <li><a class="instagram" href="https://www.instagram.com/?hl=es-la" target="_blank">
+              <img class="logo" src="./imagenes/instagram.png" alt="instagram">
+              </a></li>
+      </ul>
+    </div>
     </header>
-    <nav>
-      <a href="https://www.recetasgratis.net/receta-de-pancakes-de-avena-52579.html" target="_blank">Pancakes de avena</a>
-      <a href="https://www.recetasgratis.net/receta-de-pancakes-de-chocolate-75441.html" target="_blank">Pancakes de chocolate</a>
-      <a href="https://www.recetasgratis.net/receta-de-pancakes-japoneses-76464.html" target="_blank">Pancakes japoneses</a>
-      <a href="https://danzadefogones.com/pancakes-veganos/" target="_blank">Pancakes veganos</a>
+    <nav class="enlaces">
+      <a href="https://www.recetasgratis.net/receta-de-pancakes-de-avena-52579.html" target="_blank">Pancakes</a>
+      <a href="https://www.todocooking.com/pastel-calabaza-pumpkin-pie/" target="_blank">Pastel de calabaza</a>
+      <a href="https://recetasamericanas.com/2015/11/01/receta-de-pavo-relleno/" target="_blank">Pavo relleno</a>
+      <a href="https://www.juliaysusrecetas.com/2013/05/tarta-de-manzana-americana.html" target="_blank">Tarta de manzana</a>
     </nav>
     <section>
       <br>
@@ -25,6 +40,8 @@
       <br>
       <audio src="./audios/cocinar.mp3" controls loop autoplay></audio>
       <br>
+    </section>
+    <section  class="fotos">
       <p class="informacion">Tal vez el gran número de películas y series televisivas norteamericanas que vemos ha sido determinante en el hecho de que,
         en los últimos años, el consumo de pancakes en nuestro país, especialmente a la hora del desayuno, esté siendo cada vez mayor.
       <p class="informacion">Aunque actualmente los asociemos a la cultura norteamericana o anglosajona en general, el origen de los pancakes es muy anterior a esas sociedades y tiene raíces religiosas. Según muchos libros de historia, los antecesores de los pancakes se remontan al siglo IV o V d.C., cuando durante la Cuaresma no sólo estaba
@@ -40,7 +57,7 @@
    <img src="https://www.laurafuentes.soy/wp-content/uploads/2020/07/cassava_square-300x300.jpg" alt="foto pancakes">
    <br>
  </aside>
-<section>
+<section class="preparacion">
   <h2  class="ingredientes">Ingredientes (para unos 30 pancakes pequeños)</h2>
   <br>
   <ul class="listaingred">
@@ -54,8 +71,6 @@
     <li >Manteca</li>
   </ul>
   <br>
-</section>
-  <section>
     <h2 class="ingredientes">Preparación</h2>
     <br>
     <ol class="listaingred">
@@ -71,7 +86,7 @@
        <li >A medida que vamos retirando las tortitas, las colocamos en un plato cubriéndolas con un paño de cocina para que no se enfríen. Una vez preparadas todas, las espolvoreamos con azúcar glas y las servimos con el acompañamiento que deseemos.</li>
     </ol>
     <br>
-  </section>
+    </section>
  <section>
    <h2 class="video"style="color:#ce7095;" >Y acá la receta en video</h2>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/VSJEy39IsVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -81,18 +96,33 @@
   <h3 class="receta2">Si te quedaste con ganas de seguir cocinando aca te dejamos otra receta:</h3>
   <a href="https://www.paulinacocina.net/aros-de-cebolla-fritos/25017" target="_blank">Receta de aros de cebolla</a>
   <br><br>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999994!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1683643867668!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
-   <footer>
-  <ul class="iconos">
-    <li><a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-  </ul>
+<footer>
+  <div class="mapa">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201169.05461794484!2d-57.60053405!3d-38.01756665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684894255548!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+  <div class="iconos">
+    <ul class="iconos">
+      <li><a class="facebook" href="https://www.facebook.com/" target="_blank">
+        <img class="logo" src="./imagenes/facebook.png" alt="facebook">
+        </a></li>
+        <li><a class="facebook" href="https://www.youtube.com/" target="_blank">
+          <img class="logo" src="./imagenes/youtube.png" alt="youtube">
+          </a></li>
+          <li><a class="instagram" href="https://www.instagram.com/?hl=es-la" target="_blank">
+            <img class="logo" src="./imagenes/instagram.png" alt="instagram">
+            </a></li>
+    </ul>
+  </div>
+  <div class="info">
+    <p>Agostina Cipolla</p>
+    <p>a.cipolla1999@gmail.com</p>
+    <p>Mar del Plata, Buenos Aires</p>
+  </div>
 </footer>
-<a href="https://wa.me/542262418021" target="_blank" class="whatsapp">
-  <i class="fab fa-whatsapp"></i>
-</a>
+<a class="whatsapp" href="https://wa.me/542262418021" target="_blank">
+  <img class="logo" src="./imagenes/wpp.png" alt="whatsapp">
+  </a>
 
   </body>
 </html>
