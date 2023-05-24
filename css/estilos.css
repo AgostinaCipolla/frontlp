@@ -17,6 +17,7 @@ header { background-color: #e4d6f8;
   padding: 5px;
   display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
   }
 .footer {
   margin: 4px;
