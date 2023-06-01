@@ -1,114 +1,167 @@
+@font-face {
+  font-family: "titulos";
+  src: url(../fuentes/titulos.ttf)
+  format("truetype");
+}
+
+@font-face {
+  font-family: "subtitulos";
+  src: url(../fuentes/subtitulos.ttf)
+  format("truetype");
+}
+
 body { background-color: #f6f1de}
-h1 {color: #DA0EFF; text-decoration: underline; text-align: center; font-size: 250%}
-.subtitulo { color: #FF4DF9; }
-.ingredientes { background-color: #CE93D8}
-.informacion { font-family:Courier}
-.listaingred { font-size:120%}
-.video { color: #ce7095}
-.pancakes {height:350px;
-           width:350px;
-         }
-.pancakesintro { display: flex;
-               justify-content: center;
-                align-items: center;
-                flex-direction: column;
-}
-.preparacion {
-   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction:column;
 
-}
 header { background-color: #e4d6f8;
-  margin: 4px;
-  padding: 5px;
-  display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-  }
-.footer {
-  margin: 4px;
-  padding: 5px;
+         display: flex;
+         justify-content: space-around;
+          align-items: center;
+         flex-wrap: wrap;
+         border-radius: 10%;
 
-justify-content: space-around;
-}
-.info {
-  margin: 4px;
-  padding: 5px;
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 }
 
 .bandera {
-  width: 150px;
-  height: auto
+  width: 10%;
+  height: auto;
 }
-section { background-color: #ddd6cc;
 
+h1 {color: #DA0EFF;
+    text-decoration: underline;
+    font-size: 230%;
+     font-family: "titulos";
 }
-aside { background-color: #d294ff;
-  margin-top: 35px;
-  margin-bottom: 35px;
-display: flex;
+h1:hover { color: black;
 }
-footer { background-color: #e4c7dd;
-      margin-top: 35px;
-        margin-bottom: 35px;
+
+.iconos { color: #0000;
           display: flex;
           justify-content: center;
-          justify-content: space-around;
-          flex-wrap: wrap;
-        }
-nav {background-color: #f4c4e9;
-  margin: 20px;
-display: flex;
-}
-.iconos {color: #0000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
+          align-items: center;
 
-  .whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-    font-size: 30px
-  }
-
+}
 
 .logo{
-  width: 30px;
+  width: 5vh;
   height: auto;
-  margin: 10px;
-}
-
-.enlaces {
-  display: flex;
-justify-content: space-around;
-}
-
-.intro {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
- align-content: center;
+  margin: 0.7vw;
+  border-radius: 20%;
 
 }
 
-.recetasppl {
-  align-self: flex-end;
-
-  justify-content: center;
-  order: -9;
+nav { background-color: #f4c4e9;
+      margin: 0.8vw;
+      display: flex;
+      border-radius: 10%;
 }
+
+.enlaces {color: inherit;
+          display: flex;
+          justify-content: space-around;
+          padding: 1vw;
+
+}
+
+a { transition: font-size 0.3s;
+   color: black;
+   font-size: 1.2em;
+   font-family: 'Sono', sans-serif;
+   text-decoration: none;
+}
+a:link {color: black;}
+a:visited {color:black;}
+a:active {color: grey;}
+a:hover {font-size: 130%;}
+
+.pancakesintro { display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+}
+
+.subtitulo { color: #FF4DF9;
+             font-size: 200%;
+             font-family: "subtitulos";
+             text-decoration: underline;
+}
+
+.pancakes { height:2%;
+            width:25%;
+}
+
+.informacion { font-family:Courier}
+
+.intro { display: flex;
+         flex-wrap: wrap;
+         flex-direction: column-reverse;
+         align-content: center;
+}
+
+.recetasppl { align-self: flex-end;
+              align-items: center;
+              order: -9;
+}
+
+.preparacion { display: flex;
+               justify-content: space-around;
+               align-items: center;
+               flex-direction:column;
+                font-size: 200%;
+               font-family: "subtitulos";
+}
+
+.ingredientes { background-color: #CE93D8;
+                font-size: 0.7em;
+                font-family: "subtitulos";
+}
+
+.listaingred { font-size:0.7em}
+
+.video { color: #ce7095;
+         font-size: 110%;
+}
+
+.info { margin: 0.5em;
+        padding: 0.1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 28vw;
+        height: 28vh;
+        font-family: 'Sono', sans-serif;
+}
+
+.receta2 { font-size: 110%;
+           font-family: "subtitulos";
+}
+
+section { background-color: #ddd6cc;
+}
+
+
+footer { background-color: #e4c7dd;
+         margin-top: 2vw;
+         margin-bottom: 2vh;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         padding: 1em;
+         border-radius: 10%;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 1vw;
+    right: 1vh;
+    z-index: 9999;
+    font-size: 30%
+  }
 
 .mapa {
-  padding: 10px;
-  margin: 10px;
+  padding: 0.5vw;
+  margin: 0.5vh;
   align-items: center;
+  width: 100%
+  height: 100%;
 }
