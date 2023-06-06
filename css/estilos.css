@@ -136,6 +136,7 @@ a:hover {font-size: 130%;}
 }
 
 .preparacion { display: flex;
+                padding: 0.6vw;
                justify-content: space-around;
                align-items: center;
                flex-direction:column;
@@ -175,7 +176,7 @@ a:hover {font-size: 130%;}
         font-family: 'Sono', sans-serif;
 }
 
-.receta2 { font-size: 110%;
+.receta2 { font-size: 150%;
            font-family: "subtitulos";
 }
 
@@ -188,6 +189,21 @@ section { background-color: #fad3b2;
   }
 
 }
+
+.masrecetas { display: flex;
+           justify-content: space-between;
+           align-items: center;
+           flex-direction:column;
+
+}
+
+.conteiner-fluid { display: flex;
+                  justify-content: space-between;
+                  flex-wrap: wrap;
+                   padding: 2.2vw;
+}
+
+
 
 footer { background-color: #e4c7dd;
          margin-top: 2vw;
