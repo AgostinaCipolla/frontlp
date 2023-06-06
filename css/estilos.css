@@ -1,12 +1,12 @@
 @font-face {
   font-family: "titulos";
-  src: url(../fuentes/titulos.ttf)
+  src: url(../fuentes/titulos.TTF)
   format("truetype");
 }
 
 @font-face {
   font-family: "subtitulos";
-  src: url(../fuentes/subtitulos.ttf)
+  src: url(../fuentes/subtitulos.TTF)
   format("truetype");
 }
 
