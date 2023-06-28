@@ -21,9 +21,18 @@ header { background-color: #e4d6f8;
          border-radius: 20%;
            margin: 0.7vw;
 }
+.banderacont {width: 150px;
+animation: flamear 2s infinite ease-in-out alternate;
+}
+
+@keyframes flamear {
+  100% { transform: rotateZ(5deg); }
+  100% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(5deg); }
+}
 
 .bandera {
-  width: 10%;
+  width: 100%;
   height: auto;
 }
 

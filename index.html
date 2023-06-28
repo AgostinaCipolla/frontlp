@@ -22,7 +22,9 @@
 <body>
   <header id="header">
     <!-- aca desarrollo el header-->
+    <div class="banderacont">
     <img class="bandera" src="./imagenes/bandera.png" alt="bandera">
+    </div>
     <h1 id="titulo">Recetas de Estados Unidos</h1>
     <div class="redessociales">
         <a class="facebook" href="https://www.facebook.com/" target="_blank">
@@ -47,7 +49,13 @@
     <a id="navletra4" href="http://www.lasdeliciasdeisabel.com/2015/05/tomate-verdes-fritos.html" target="_blank">Tomates fritos</a>
   </nav>
       <!-- aca hay fotos de los pancakes-->
-      <button onclick="oscuro()">Modo oscuro</button>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Visibilidad</button>
+        <ul class="dropdown-menu">
+          <li><button onclick="oscuro()" class="btn btn-dark">Modo oscuro</button></li>
+          <li><button onclick="claro()" class="btn btn-light">Modo claro</button></li>
+        </ul>
+      </div>
   <section class="pancakesintro" id="section">
     <h2 class="subtitulo" id="texto"> Pancakes , ¿los panqueques norteamericanos?</h2>
  <div class="fotosintro">
@@ -174,7 +182,7 @@
                         <img class="logo" src="./imagenes/wpp.png" alt="whatsapp">
                       </a>
                   </div>
-                  <button type="button" class="btn btn-dark" class="info" onclick="copy()">Copyright©</button>
+                  <button type="button" class="btn btn-secondary" class="info" onclick="copy()">Copyright©</button>
                 </footer>
                 <a class="whatsapp" href="https://wa.me/542262418021" target="_blank">
                   <img class="logo" src="./imagenes/wpp.png" alt="whatsapp">
