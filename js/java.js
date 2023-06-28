@@ -2,7 +2,8 @@ function copy() {alert ("Agostina Cipolla -- a.cipolla1999@gmail.com -- Mar del 
 
 }
 
-function oscuro() { document.getElementById("header").style.backgroundColor="#15202B";
+function oscuro() { document.body.style.backgroundColor="#395667";
+                    document.getElementById("header").style.backgroundColor="#15202B";
                     document.getElementById("nav").style.backgroundColor="#15202B";
                     document.getElementById("navletra1").style.color="#DDDDDD";
                     document.getElementById("navletra2").style.color="#DDDDDD";
@@ -21,8 +22,4 @@ function oscuro() { document.getElementById("header").style.backgroundColor="#15
                     document.getElementById("section5").style.backgroundColor="#15202B";
                     document.getElementById("seguircoc").style.color="#CCCCCC";
                     document.getElementById("footer").style.backgroundColor="#15202B";
-                    
-
-
-
  }
