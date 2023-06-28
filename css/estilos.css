@@ -10,14 +10,16 @@
   format("truetype");
 }
 
-body { background-color: #f6f1de}
+body { background-color: #ffffdd;
+}
 
 header { background-color: #e4d6f8;
          display: flex;
          justify-content: space-around;
           align-items: center;
          flex-wrap: wrap;
-         border-radius: 10%;
+         border-radius: 20%;
+           margin: 0.7vw;
 }
 
 .bandera {
@@ -25,10 +27,11 @@ header { background-color: #e4d6f8;
   height: auto;
 }
 
-h1 {color: #DA0EFF;
+h1 {color: #021b2b;
     text-decoration: underline;
     font-size: 230%;
      font-family: "titulos";
+     text-align: center;
 }
 h1:hover { color: black;
 }
@@ -81,6 +84,11 @@ a:hover {font-size: 130%;}
                  justify-content: center;
 }
 
+.fotosintro { display: flex;
+  justify-content: space-between;
+margin-right:  10%;
+}
+
 .pancakes { display: flex;
             height:2%;
             width:25%;
@@ -107,10 +115,11 @@ a:hover {font-size: 130%;}
                display:none;
   }
 }
-.subtitulo { color: #FF4DF9;
+.subtitulo { color: #4c264b;
              font-size: 200%;
              font-family: "subtitulos";
              text-decoration: underline;
+            text-align: center;
 }
 
 
@@ -145,11 +154,11 @@ a:hover {font-size: 130%;}
 }
 
 .ingredientes { background-color: #CE93D8;
-                font-size: 0.7em;
-                font-family: "subtitulos";
+                font-size: 0.85em;
+
 }
 
-.listaingred { font-size:0.7em}
+.listaingred { font-size:0.65em}
 
 .video { display: flex;
          justify-content: space-around;
@@ -171,8 +180,6 @@ a:hover {font-size: 130%;}
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 28vw;
-        height: 28vh;
         font-family: 'Sono', sans-serif;
 }
 
@@ -203,17 +210,14 @@ section { background-color: #fad3b2;
                    padding: 2.2vw;
 }
 
-
-
-footer { background-color: #e4c7dd;
-         margin-top: 2vw;
-         margin-bottom: 2vh;
-         display: flex;
-         justify-content: space-between;
+footer { display: flex;
+         background-color: #e4c7dd;
+         justify-content: space-around;
          align-items: center;
          flex-wrap: wrap;
          padding: 1em;
-         border-radius: 10%;
+         border-radius: 20%;
+           margin: 0.7vw;
 }
 
 .whatsapp {

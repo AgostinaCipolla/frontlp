@@ -7,6 +7,9 @@
   <meta name="author" content="Agostina Cipolla">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recetas de Estados Unidos</title>
+  <script>
+    alert("¡Te damos la bienvenida a la mejor pagina con recetas de Estados Unidos!")
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
@@ -16,10 +19,10 @@
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-  <header>
+  <header id="header">
     <!-- aca desarrollo el header-->
     <img class="bandera" src="./imagenes/bandera.png" alt="bandera">
-    <h1>Recetas de Estados Unidos</h1>
+    <h1 id="titulo">Recetas de Estados Unidos</h1>
     <div class="redessociales">
         <a class="facebook" href="https://www.facebook.com/" target="_blank">
           <img class="logo" src="./imagenes/facebook.png" alt="facebook">
@@ -36,45 +39,44 @@
     </div>
   </header>
       <!-- aca estan los enlaces a otras recetas referidas al pais-->
-  <nav class="enlaces">
-    <a href="http://www.sergiorecetas.com/2015/07/sergio-benito-receta-de-macarrones-con.html" target="_blank">Macarrones con queso</a>
-    <a href="http://mabelkitchen.blogspot.com/2015/07/ensalada-cesar-y-su-salsa.html" target="_blank">Ensalada Cesar</a>
-    <a href="http://www.larosadulce.com/2012/07/donuts-originales-sin-lactosa.html" target="_blank">Donuts</a>
-    <a href="http://www.lasdeliciasdeisabel.com/2015/05/tomate-verdes-fritos.html" target="_blank">Tomates fritos</a>
+  <nav class="enlaces" id="nav">
+    <a id="navletra1" href="http://www.sergiorecetas.com/2015/07/sergio-benito-receta-de-macarrones-con.html" target="_blank">Macarrones con queso</a>
+    <a id="navletra2" href="http://mabelkitchen.blogspot.com/2015/07/ensalada-cesar-y-su-salsa.html" target="_blank">Ensalada Cesar</a>
+    <a id="navletra3" href="http://www.larosadulce.com/2012/07/donuts-originales-sin-lactosa.html" target="_blank">Donuts</a>
+    <a id="navletra4" href="http://www.lasdeliciasdeisabel.com/2015/05/tomate-verdes-fritos.html" target="_blank">Tomates fritos</a>
   </nav>
       <!-- aca hay fotos de los pancakes-->
-  <section class="pancakesintro">
-    <h2 class="subtitulo"> Pancakes , ¿los panqueques norteamericanos?</h2>
-    <div class="pancakescel">
+      <button onclick="oscuro()">Modo oscuro</button>
+  <section class="pancakesintro" id="section">
+    <h2 class="subtitulo" id="texto"> Pancakes , ¿los panqueques norteamericanos?</h2>
+ <div class="fotosintro">
+    <div class="pancakescel ">
       <img  src="./imagenes/pancakescelu.jpg" alt="foto de referencia pancakes">
   </div>
      <div class="imagenpancakes">
       <img  src="./imagenes/pancakes.jpg" alt="foto de referencia pancakes">
    </div>
-   <div class="imagenpancakes">
+   <div class="imagenpancakes ">
       <img  src="./imagenes/pancakesaran.jpg" alt="foto de referencia pancakes con arandanos">
  </div>
-    <div class="imagenpancakes">
+    <div class="imagenpancakes ">
       <img  src="./imagenes/pancakesfram.jpg" alt="foto de referencia pancakes con frambuesas">
     </div>
+     </div>
     <!-- aca hay informacion sobre la receta-->
   </section>
-  <section  class="textointro">
-    <p class="informacion">Tal vez el gran número de películas y series televisivas norteamericanas que vemos ha sido determinante en el hecho de que,
-      en los últimos años, el consumo de pancakes en nuestro país, especialmente a la hora del desayuno, esté siendo cada vez mayor.
-      <p class="informacion">Aunque actualmente los asociemos a la cultura norteamericana o anglosajona en general, el origen de los pancakes es muy anterior a esas sociedades y tiene raíces religiosas. Según muchos libros de historia, los antecesores de los pancakes se remontan al siglo IV o V d.C., cuando durante la Cuaresma no sólo estaba
-        prohibido por la Iglesia el consumo de carne sino también de manteca, huevos, queso o leche.</p>
-        <p class="informacion"> El hambre aguza el ingenio, de modo que quienes observaban el ayuno empezaron a hacer una pasta a base de harina de trigo y agua que se cocinaba extendiéndola en capas muy finas sobre piedras muy calientes. Algunos siglos más tarde las autoridades eclesiásticas permitieron en la dieta de Cuaresma la leche,
-          huevos y manteca, que se añadieron a la pasta de harina dando origen a lo que hoy en día son los pancakes.</p>
-          <p class="informacion">La mayoría de pancakes que estamos acostumbrados a saborear son los habituales de estilo americano. En cambio, los Scotch Pancakes o tortitas escocesas, son mucho menos conocidas
-            pero no menos sabrosas. Son más pequeñas, esponjosas y gruesas, elaboradas con levadura como las americanas.</p>
-            <p class="informacion">Allí se toman tanto en el desayuno como en el afternoon tea (té de la tarde), acompañadas habitualmente de mantequilla y mermelada,
+  <section  class="textointro" id="section2">
+    <p class="informacion" id="textohis">Tal vez el gran número de películas y series televisivas norteamericanas que vemos ha sido determinante en el hecho de que,
+      en los últimos años, el consumo de pancakes en nuestro país, especialmente a la hora del desayuno, esté siendo cada vez mayor.Aunque actualmente los asociemos a la cultura norteamericana o anglosajona en general, el origen de los pancakes es muy anterior a esas sociedades y tiene raíces religiosas. Según muchos libros de historia, los antecesores de los pancakes se remontan al siglo IV o V d.C., cuando durante la Cuaresma no sólo estaba
+        prohibido por la Iglesia el consumo de carne sino también de manteca, huevos, queso o leche. El hambre aguza el ingenio, de modo que quienes observaban el ayuno empezaron a hacer una pasta a base de harina de trigo y agua que se cocinaba extendiéndola en capas muy finas sobre piedras muy calientes. Algunos siglos más tarde las autoridades eclesiásticas permitieron en la dieta de Cuaresma la leche,
+          huevos y manteca, que se añadieron a la pasta de harina dando origen a lo que hoy en día son los pancakes. La mayoría de pancakes que estamos acostumbrados a saborear son los habituales de estilo americano. En cambio, los Scotch Pancakes o tortitas escocesas, son mucho menos conocidas
+            pero no menos sabrosas. Son más pequeñas, esponjosas y gruesas, elaboradas con levadura como las americanas. Allí se toman tanto en el desayuno como en el afternoon tea (té de la tarde), acompañadas habitualmente de mantequilla y mermelada,
               azúcar y un chorrito de limón o de golden syrup (jarabe de azúcar). También resultan excelentes con frutos rojos, banana, maple syrup (jarabe de arce) o helado de vainilla. La siguiente receta procede de la web de turismo de la capital escocesa, Edimburgo.</p>
             </section>
                 <!-- aca va la receta-->
-            <section class="preparacion">
+            <section class="preparacion" id="section3">
               <h2  class="ingredientes">Ingredientes (para unos 30 pancakes pequeños)</h2>
-              <ul class="listaingred">
+              <ul class="listaingred" id="ingredlis">
                 <li >250 gramos de harina</li>
                 <li >1 cucharadita y media de levadura</li>
                 <li >1 huevo</li>
@@ -86,7 +88,7 @@
               </ul>
               <br>
               <h2 class="ingredientes">Preparación</h2>
-              <ol class="listaingred">
+              <ol class="listaingred" id="pasoslis">
                 <li > Vertemos la leche, el aceite y el huevo en un recipiente y los mezclamos
                   bien. En un recipiente aparte mezclamos la harina, la levadura, el azúcar glas (previamente tamizados)
                   y la sal. Añadimos los ingredientes líquidos a los sólidos y batimos la mezcla hasta obtener una masa homogénea.</li>
@@ -101,51 +103,59 @@
                   <br>
                 </section>
                     <!-- aca el video de la receta-->
-                <section class="video">
-                  <h2 class="video" >Y acá la receta en video</h2>
+                <section class="video" id="section4">
+                  <h2 class="video" id="videotitu">Y acá la receta en video</h2>
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/VSJEy39IsVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   <br>
                 </section>
-                <section class="masrecetas">
-                  <h3 class="receta2">Si te quedaste con ganas de seguir cocinando aca te dejamos otras recetas:</h3>
+                <section class="masrecetas" id="section5">
+                  <h3 class="receta2" id="seguircoc">Si te quedaste con ganas de seguir cocinando aca te dejamos otras recetas:</h3>
           <div class="conteiner-fluid">
               <div class="row">
-                  <div class="card col-sm-12  col-md-6  col-lg-3">
+                  <div class="col-sm-12  col-md-6  col-lg-3">
+                    <div class="card">
                     <img src="./imagenes/brownie.jpg" class="card-img-top" alt="recetabrownie">
                     <div class="card-body">
                       <h5 class="card-title">Brownies</h5>
                       <p>Hace click en el boton de abajo para ver y poder hacer esta receta</p>
-                      <a href="http://cocinandounabrilencantado.blogspot.com/2014/02/brownies-receta-de-nigella-lawson.html" class="btn btn-primary" target="_blank">Ir a la receta</a>
+                     <a href="http://cocinandounabrilencantado.blogspot.com/2014/02/brownies-receta-de-nigella-lawson.html" class="btn btn-primary" target="_blank">Ir a la receta</a>
                     </div>
                   </div>
-                  <div class="card col-sm-12  col-md-6  col-lg-3">
-                    <img src="./imagenes/pavo.jpg" class="card-img-top" alt="recetabrownie">
-                    <div class="card-body">
+                  </div>
+                  <div class="col-sm-12  col-md-6  col-lg-3">
+                   <div class="card">
+                      <img src="./imagenes/pavo.jpg" class="card-img-top" alt="recetabrownie">
+                      <div class="card-body">
                       <h5 class="card-title">Pavo relleno</h5>
-                      <p>Hace click en el boton de abajo para ver y poder hacer esta receta</p>
-                      <a href="https://recetasamericanas.com/2015/11/01/receta-de-pavo-relleno/" class="btn btn-primary" target="_blank">Ir a la receta</a>
-                    </div>
+                    <p>Hace click en el boton de abajo para ver y poder hacer esta receta</p>
+               <a href="https://recetasamericanas.com/2015/11/01/receta-de-pavo-relleno/" class="btn btn-primary" target="_blank">Ir a la receta</a>
+            </div>
+                   </div>
                   </div>
-                  <div class="card col-sm-12  col-md-6  col-lg-3">
+                  <div class="col-sm-12  col-md-6  col-lg-3">
+                    <div class="card">
                     <img src="./imagenes/calabaza.jpg" class="card-img-top" alt="recetapavo">
                     <div class="card-body">
                       <h5 class="card-title">Pastel de calabaza</h5>
                       <p>Hace click en el boton de abajo para ver y poder hacer esta receta</p>
                       <a href="https://www.todocooking.com/pastel-calabaza-pumpkin-pie/" class="btn btn-primary" target="_blank">Ir a la receta</a>
                     </div>
+                    </div>
                   </div>
-                  <div class="card col-sm-12  col-md-6  col-lg-3">
+                  <div class="col-sm-12  col-md-6  col-lg-3">
+                    <div class="card">
                     <img src="./imagenes/tarta.jpg" class="card-img-top" alt="recetatarta">
                     <div class="card-body">
                       <h5 class="card-title">Tarta de manzana</h5>
                       <p>Hace click en el boton de abajo para ver y poder hacer esta receta</p>
                       <a href="https://www.juliaysusrecetas.com/2013/05/tarta-de-manzana-americana.html" class="btn btn-primary" target="_blank">Ir a la receta</a>
                     </div>
+                    </div>
                   </div>
                 </div>   <!-- este es el div de row-->
             </div>       <!-- este es el div de cardmayor-->
                 </section>
-                <footer>
+                <footer id="footer">
                   <div class="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201169.05461794484!2d-57.60053405!3d-38.01756665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684894255548!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
@@ -163,15 +173,12 @@
                         <img class="logo" src="./imagenes/wpp.png" alt="whatsapp">
                       </a>
                   </div>
-                  <div class="info">
-                    <p>Agostina Cipolla</p>
-                    <p>a.cipolla1999@gmail.com</p>
-                    <p>Mar del Plata, Buenos Aires</p>
-                  </div>
+                  <button type="button" class="btn btn-dark" class="info" onclick="copy()">Copyright©</button>
                 </footer>
                 <a class="whatsapp" href="https://wa.me/542262418021" target="_blank">
                   <img class="logo" src="./imagenes/wpp.png" alt="whatsapp">
                 </a>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+                <script src="./js/java.js"> </script>
               </body>
               </html>
